@@ -1,0 +1,26 @@
+name: Logs Delete
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 2 * * *
+
+jobs:
+  Cleaning:
+    runs-on: ubuntu-24.04
+
+    steps:
+    - name: Logs Delete
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        retain_days: 1
+        keep_minimum_runs: 0
+
+    - name: Logs Delete
+      uses: dev-drprasad/delete-older-releases@master
+      with:
+        keep_latest: 2
+        delete_tags: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

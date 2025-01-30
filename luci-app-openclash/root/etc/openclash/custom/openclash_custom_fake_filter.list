@@ -1,0 +1,7 @@
+# FAKE-IP
+*
++.lan
++.local
+geosite:tld-cn
+geosite:private
+geosite:cn

@@ -1,0 +1,4 @@
+# MosDNS Rules
+keyword:google
+domain:gstatic.com
+domain:kernel.org

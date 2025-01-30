@@ -1,0 +1,16 @@
+# MosDNS Rules
+domain:aios-home.hivoice.cn
+domain:phicloudsym.phicomm.com
+domain:nas1.phicomm.com
+domain:develop.waxrain.com
+domain:o1098464.ingest.sentry.io
+domain:dkys.org
+domain:youtusoft.com
+domain:hostbuf.com
+domain:tcpspeed.com
+domain:wn1998.com
+domain:ocsp.applle.com
+domain:xp.applle.com
+domain:mesu.applle.com
+domain:gdmf.applle.com
+domain:updates-http.cdn-applle.com
